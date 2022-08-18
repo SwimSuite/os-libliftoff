@@ -246,6 +246,17 @@ plane_apply(struct liftoff_plane *plane, struct liftoff_layer *layer,
 			    layer_prop->value == DRM_MODE_ROTATE_0) {
 				continue; /* Layer isn't rotated */
 			}
+			if (strcmp(layer_prop->name, "SCALING_FILTER") == 0 &&
+			    layer_prop->value == 0) {
+				continue; /* Layer uses default scaling filter */
+			}
+			if (strcmp(layer_prop->name, "pixel blend mode") == 0 &&
+			    layer_prop->value == 0) {
+				continue; /* Layer uses pre-multiplied alpha */
+			}
+			if (strcmp(layer_prop->name, "FB_DAMAGE_CLIPS") == 0) {
+				continue; /* Damage can be omitted */
+			}
 			drmModeAtomicSetCursor(req, cursor);
 			return -EINVAL;
 		}

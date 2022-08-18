@@ -17,6 +17,7 @@ libliftoff.so.0 libliftoff0 #MINVER#
  liftoff_layer_needs_composition@Base 0.2.0
  liftoff_layer_set_fb_composited@Base 0.1.0
  liftoff_layer_set_property@Base 0.1.0
+ liftoff_layer_unset_property@Base 0.3.0
  liftoff_list_empty@Base 0.1.0
  liftoff_list_init@Base 0.1.0
  liftoff_list_insert@Base 0.1.0

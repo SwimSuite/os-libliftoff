@@ -1,11 +1,11 @@
 project(
 	'libliftoff',
 	'c',
-	version: '0.2.0',
+	version: '0.3.0',
 	license: 'MIT',
 	meson_version: '>=0.52.0',
 	default_options: [
-		'c_std=c99',
+		'c_std=c11',
 		'warning_level=3',
 		'werror=true',
 	],
@@ -40,7 +40,7 @@ liftoff_lib = library(
 		'plane.c',
 	),
 	include_directories: liftoff_inc,
-	version: meson.project_version(),
+	version: meson.project_version().split('-')[0],
 	dependencies: liftoff_deps,
 	install: true,
 )

@@ -8,7 +8,7 @@ Build-Depends:
  pkg-config,
  libdrm-dev,
 Rules-Requires-Root: no
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Homepage: https://gitlab.freedesktop.org/emersion/libliftoff
 Vcs-Browser: https://salsa.debian.org/debian/libliftoff
 Vcs-Git: https://salsa.debian.org/debian/libliftoff.git

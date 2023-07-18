@@ -2,6 +2,7 @@ libliftoff (0.4.1-1) UNRELEASED; urgency=medium
 
   * New upstream release. (Closes: #1035506)
   * Update Standards-Version to 4.6.2, no changes needed
+  * Updated smbols file for new symbols
 
  -- Matthias Geiger <matthias.geiger1024@tutanota.de>  Fri, 14 Jul 2023 15:09:09 +0200
 

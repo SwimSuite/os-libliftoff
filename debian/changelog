@@ -1,3 +1,9 @@
+libliftoff (0.4.1-1+ss24u1) swimsuite; urgency=medium
+
+  * Rebuild against bookworm~bpo
+
+ -- Huw Jones <huw@swimsuite.co.uk>  Sat, 19 Oct 2024 18:13:01 +0000
+
 libliftoff (0.4.1-1) unstable; urgency=medium
 
   [ Matthias Geiger ]
